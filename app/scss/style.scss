@@ -1,0 +1,12 @@
+@import 'vars';
+@import 'fonts';
+@import '../../node_modules/sass-rem/rem';
+
+@import 'animation';
+@import 'preset';
+@import '../../node_modules/@glidejs/glide/src/assets/sass/glide.core.scss';
+.glide__slides {
+  padding: 25px 0;
+}
+
+@import 'media';

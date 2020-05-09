@@ -1,0 +1,29 @@
+$lemon: 'Josefin Sans', sans-serif;
+$JosefinFont: 'Josefin Sans', sans-serif;
+$myriadBold: 'Myriad Pro';
+$myriadReg: 'Myriad Pro Regular';
+$sans: 'Open Sans', sans-serif;
+$sansBold: 'Open sans bold';
+$roboto: 'roboto';
+$doris: 'Dosis', sans-serif;
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+//colors
+$logoColor: #57bda5;
+$btnsColor: #fa4347;
+$btnsHover: #ee191c;
+$whiteColor: #ffffff;
+$mainTextColor: #32505a;
+$placeholderColor: #091f34;
+ul {
+  list-style: none;
+  padding: 0;
+}
