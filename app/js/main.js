@@ -1,4 +1,10 @@
 window.onload = function () {
+  setTimeout(function () {
+    let preloader = document.getElementById('page-preloader');
+    if (!preloader.classList.contains('done')) {
+      preloader.classList.add('done');
+    }
+  }, 500);
   class FetchData {
     constructor(url) {
       this.url = url;
